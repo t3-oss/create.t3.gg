@@ -59,6 +59,7 @@ const Home: NextPage = () => {
         <div className="flex gap-4 font-medium text-neutral-300">
           <a
             href="https://github.com/nexxeln/create-t3-app"
+            rel="noreferrer"
             target="_blank"
             className="p-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
           >
@@ -66,6 +67,7 @@ const Home: NextPage = () => {
           </a>
           <a
             href="https://init.tips"
+            rel="noreferrer"
             target="_blank"
             className="p-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
           >
