@@ -8,3 +8,7 @@ body {
   @apply antialiased bg-neutral-900;
   font-family: "Inter", sans-serif;
 }
+
+html.wf-loading * {
+ opacity: 0;
+}
