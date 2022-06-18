@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className="pt-12 md:pt-6" />
         <code
           id="command"
-          className="px-3 py-1.5 text-base text-blue-300 rounded-md cursor-pointer bg-neutral-800"
+          className="px-3 py-1.5 text-base text-blue-300 rounded-md cursor-pointer bg-neutral-800 hover:bg-neutral-700 transition-all duration-300"
           onClick={() => {
             navigator.clipboard.writeText("npx create-t3-app@latest");
 
