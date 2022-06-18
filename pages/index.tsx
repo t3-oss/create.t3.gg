@@ -6,7 +6,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-          <title>Create t3 App</title>
+        <title>Create t3 App</title>
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen">
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
             href="https://github.com/nexxeln/create-t3-app"
             rel="noreferrer"
             target="_blank"
-            className="p-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
+            className="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
           >
             GitHub
           </a>
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             href="https://init.tips"
             rel="noreferrer"
             target="_blank"
-            className="p-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
+            className="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
           >
             t3 Stack
           </a>
