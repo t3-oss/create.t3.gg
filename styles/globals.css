@@ -5,6 +5,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-neutral-900;
-  font-family: "Inter"
+  @apply antialiased bg-neutral-900;
+  font-family: "Inter", sans-serif;
 }

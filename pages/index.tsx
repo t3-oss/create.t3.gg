@@ -6,26 +6,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Create t3 App</title>
-        <meta name="robots" content="follow, index" />
-        <meta
-          name="description"
-          content="Scaffold a starter project using the t3 stack"
-        />
-        <meta property="og:site_name" content="Create t3 App" />
-        <meta
-          property="og:description"
-          content="Scaffold a starter project using the t3 stack"
-        />
-        <meta property="og:image" content="/banner.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="theme-color" content="#E8DCFF" />
-        <meta name="twitter:title" content="Create t3 App" />
-        <meta
-          name="twitter:description"
-          content="Scaffold a starter project using the t3 stack"
-        />
-        <meta name="twitter:image" content="/banner.png" />
+          <title>Create t3 App</title>
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen">
