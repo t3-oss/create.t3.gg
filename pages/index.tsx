@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 const Home: NextPage = () => {
@@ -56,6 +58,21 @@ const Home: NextPage = () => {
           </a>
         </div>
 
+        <div className="mt-6" />
+        <div className="cursor-pointer">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://vercel.com?utm_source=t3-oss&utm_campaign=oss"
+          >
+            <Image
+              src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+              alt="Powered by Vercel"
+              width="212"
+              height="44"
+            />
+          </a>
+        </div>
         <Toaster />
       </div>
     </>
