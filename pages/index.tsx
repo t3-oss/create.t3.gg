@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import toast, { Toaster } from "react-hot-toast";
 
 const Home: NextPage = () => {
@@ -58,8 +57,7 @@ const Home: NextPage = () => {
           </a>
         </div>
 
-        <div className="mt-6" />
-        <div className="cursor-pointer">
+        <div className="fixed cursor-pointer bottom-8">
           <a
             target="_blank"
             rel="noopener noreferrer"
