@@ -10,3 +10,20 @@ body {
 html.wf-loading * {
   opacity: 0;
 }
+
+.anim-1 {
+  animation: fadein 1.5s ease forwards;
+}
+
+.anim-2 {
+  animation: fadein 2.5s ease forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
