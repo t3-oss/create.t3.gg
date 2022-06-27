@@ -39,6 +39,13 @@ class MyDocument extends Document {
           <meta name="twitter:image" content="/banner.png" />
 
           <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/favicon.svg"
+            sizes="any"
+          />
+
+          <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
             rel="stylesheet"
           />
