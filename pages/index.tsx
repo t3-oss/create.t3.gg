@@ -7,12 +7,12 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Create t3 App</title>
+        <title>Create T3 App</title>
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-[#E8DCFF] text-5xl font-bold text-center anim-1">
-          Create t3 App
+          Create T3 App
         </h1>
 
         <div className="pt-12 md:pt-6" />
