@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             target="_blank"
             className="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
           >
-            t3 Stack
+            T3 Stack
           </a>
         </div>
 
