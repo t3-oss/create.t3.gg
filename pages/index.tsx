@@ -11,6 +11,8 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="flex flex-col items-center justify-center min-h-screen">
+        <Image src="/favicon.svg" width="80" height="80" alt="lol" />
+        <div className="pt-4" />
         <h1 className="text-[#E8DCFF] text-5xl font-bold text-center anim-1">
           Create T3 App
         </h1>
