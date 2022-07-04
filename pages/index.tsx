@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <Image src="/favicon.svg" width="80" height="80" alt="lol" />
         <div className="pt-4" />
         <h1 className="text-[#E8DCFF] text-5xl font-bold text-center anim-1">
-          Create T3 App
+          Create <span className="text-violet-300">T3</span> App
         </h1>
 
         <div className="pt-12 md:pt-6" />
