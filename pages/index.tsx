@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         <div className="mt-4" />
         <div className="flex gap-4 font-medium text-neutral-300 anim-2">
           <a
-            href="https://github.com/nexxeln/create-t3-app"
+            href="https://github.com/t3-oss/create-t3-app"
             rel="noreferrer"
             target="_blank"
             className="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
