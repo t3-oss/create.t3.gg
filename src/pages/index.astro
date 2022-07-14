@@ -1,0 +1,56 @@
+---
+import Code from "../components/Code.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout>
+  <div class="flex flex-col items-center justify-center min-h-screen">
+    <img alt="Create T3 App logo" src="/favicon.svg" width="80" height="80" />
+
+    <div class="pt-4"></div>
+
+    <h1 class="text-[#E8DCFF] text-5xl font-bold text-center anim-1">
+      Create <span class="text-violet-300">T3</span> App
+    </h1>
+
+    <div class="pt-12 md:pt-6"></div>
+
+    <Code />
+
+    <div class="mt-4"></div>
+
+    <div class="flex gap-4 font-medium text-neutral-300 anim-2">
+      <a
+        class="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
+        href="https://github.com/t3-oss/create-t3-app"
+        rel="noreferrer"
+        target="_blank"
+      >
+        GitHub
+      </a>
+      <a
+        class="px-3 py-1 transition-all duration-200 rounded-md hover:bg-neutral-800"
+        href="https://init.tips"
+        rel="noreferrer"
+        target="_blank"
+      >
+        T3 Stack
+      </a>
+    </div>
+
+    <div class="fixed cursor-pointer bottom-8">
+      <a
+        href="https://vercel.com?utm_source=t3-oss&utm_campaign=oss"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Powered by Vercel"
+          height="44"
+          src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+          width="212"
+        />
+      </a>
+    </div>
+  </div>
+</Layout>
