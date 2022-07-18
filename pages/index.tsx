@@ -75,6 +75,112 @@ const Home: NextPage = () => {
         </div>
         <Toaster />
       </div>
+      <div className="bg-[#E8DCFF]">
+        <div className="mx-auto max-w-2xl  min-h-screen">
+          <div className="p-8" />
+          <h2 className="text-2xl font-medium">What is the T3 Stack?</h2>
+          <div className="p-2" />
+          <p>
+            The "T3 Stack" is a web development stack made by{" "}
+            <a
+              className="text-blue-600 hover:text-blue-400"
+              href="https://twitter.com/t3dotgg"
+            >
+              Theo
+            </a>{" "}
+            focused on simplicity, modularity, and full-stack typesafety.
+          </p>
+          <div className="p-8" />
+          <h2 className="text-2xl font-medium">
+            What is this? Some kind of template?
+          </h2>
+          <div className="p-2" />
+          <p>
+            Kind of. We love all of the technologies that create-t3-app
+            includes. Check out{" "}
+            <a
+              className="text-blue-600 hover:text-blue-400"
+              href="https://init.tips"
+            >
+              init.tips
+            </a>{" "}
+            for even more info on topics such as state management and
+            deployment. But we do not believe these are needed on every project.
+          </p>
+          <div className="p-2" />
+          <p>
+            So we made create-t3-app to do one thing: Simplify complex
+            boilerplate around the core T3 Stack tech without compromising the
+            pieces modularity. This is NOT an all-inclusive template and we
+            expect you to bring your own libraries as well.
+          </p>
+          <div className="p-2" />
+          <p>
+            We are selective about the packages we have included. We don't add
+            libraries that are as simple as npm install zustand: If you cut an
+            issue asking us to add your preferred libraries, we will make fun of
+            you.
+          </p>
+          <div className="p-8" />
+          <h2 className="text-2xl font-medium">What's inside?</h2>
+          <div className="p-2" />
+          <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
+            <a
+              href="https://nextjs.org/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img className="h-[100px]" src="/Nextjs-logo.svg" alt="Next.js" />
+            </a>
+            <a
+              href="https://trpc.io/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img className="h-[100px]" src="/trpc-logo.svg" alt="trpc" />
+            </a>
+            <a
+              href="https://tailwindcss.com/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img
+                className="h-[100px]"
+                src="/tailwindcss-logo.svg"
+                alt="tailwindcss"
+              />
+            </a>
+            <a
+              href="https://www.typescriptlang.org/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img
+                className="h-[100px]"
+                src="/typescript-logo.svg"
+                alt="typescript"
+              />
+            </a>
+            <a
+              href="https://www.prisma.io/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img className="h-[100px]" src="/prisma-logo.svg" alt="prisma" />
+            </a>
+            <a
+              href="https://next-auth.js.org/"
+              className="bg-white rounded-lg px-4 py-2 flex justify-center items-center"
+            >
+              <img
+                className="h-[100px]"
+                src="/nextauth-logo.png"
+                alt="NextAuth.js"
+              />
+            </a>
+          </div>
+          <div className="p-8" />
+          <h2 className="text-2xl font-medium">FAQ</h2>
+          <div className="p-2" />
+          <p>Soon...</p>
+          <div className="p-8" />
+        </div>
+      </div>
     </>
   );
 };
