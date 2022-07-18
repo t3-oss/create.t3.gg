@@ -177,7 +177,8 @@ const Home: NextPage = () => {
           <div className="p-8" />
           <h2 className="text-2xl font-medium">FAQ</h2>
           <div className="p-2" />
-          <p>Soon...</p>
+          <h3 className="text-lg font-medium">Can I use JavaScript?</h3>
+          <p>No</p>
           <div className="p-8" />
         </div>
       </div>
