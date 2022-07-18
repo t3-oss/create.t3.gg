@@ -179,7 +179,7 @@ const Home: NextPage = () => {
           <div className="p-2" />
           <h3 className="text-lg font-medium">Can I use JavaScript?</h3>
           <p>No</p>
-          <div className="p-8" />
+          <div className="p-14" />
         </div>
       </div>
     </>
