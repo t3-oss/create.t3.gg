@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply antialiased bg-neutral-900;
   font-family: "Inter", sans-serif;
@@ -11,6 +15,7 @@ html.wf-loading * {
   opacity: 0;
 }
 
+
 .anim-1 {
   animation: fadein 1.5s ease forwards;
 }
@@ -19,11 +24,36 @@ html.wf-loading * {
   animation: fadein 2.5s ease forwards;
 }
 
+.anim-3 {
+  animation: 2.5s fadein 3s ease forwards;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+
+.scroll {
+  animation: scrolldown 2s infinite
+}
+
+@keyframes scrolldown {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+  100% {
+    opacity: 0;
   }
 }

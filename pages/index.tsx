@@ -99,24 +99,17 @@ const Home: NextPage = () => {
             T3 Stack
           </a>
         </div>
-
-        <div className="fixed cursor-pointer bottom-8">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://vercel.com?utm_source=t3-oss&utm_campaign=oss"
-          >
-            <Image
-              src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-              alt="Powered by Vercel"
-              width="212"
-              height="44"
-            />
-          </a>
-        </div>
         <Toaster />
+        <a
+          href="#info"
+          className="p-2 cursor-pointer absolute bottom-4 anim-3 opacity-0"
+        >
+          <div className="border-2 w-7 h-12 rounded-2xl">
+            <div className="w-1 h-1 rounded-full bg-white mx-auto top-2 relative scroll" />
+          </div>
+        </a>
       </div>
-      <div className="bg-[#E8DCFF]">
+      <div id="info" className="bg-[#E8DCFF]">
         <div className="mx-auto max-w-2xl  min-h-screen">
           <div className="p-8" />
           <h2 className="text-2xl font-medium">What is the T3 Stack?</h2>
