@@ -61,8 +61,8 @@ export const InfoPage: React.FC = () => {
         <h2 className="text-2xl font-medium">What's inside?</h2>
         <div className="p-2" />
         <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
-          {links.map((link) => (
-            <ImageLink {...link} />
+          {links.map((link, idx) => (
+            <ImageLink key={idx} {...link} />
           ))}
         </div>
         <div className="p-8" />
