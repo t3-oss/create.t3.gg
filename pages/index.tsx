@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import toast, { Toaster } from "react-hot-toast";
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Home: NextPage = () => {
   return (
@@ -18,26 +18,24 @@ const Home: NextPage = () => {
         </h1>
 
         <div className="pt-12 md:pt-6" />
-        <code
-          id="command"
+        <button
           className="px-3 py-1.5 text-base text-blue-300 rounded-md cursor-pointer bg-neutral-800 hover:bg-neutral-700 transition-all duration-300 anim-2"
           onClick={() => {
-            navigator.clipboard.writeText("npx create-t3-app@latest");
-
-            toast.success("Copied", {
+            navigator.clipboard.writeText('npx create-t3-app@latest');
+            toast.success('Copied', {
               style: {
-                background: "#262626",
-                color: "#E8DCFF",
+                background: '#262626',
+                color: '#E8DCFF',
               },
               iconTheme: {
-                primary: "#E8DCFF",
-                secondary: "#262626",
+                primary: '#E8DCFF',
+                secondary: '#262626',
               },
             });
           }}
         >
-          npx create-t3-app@latest
-        </code>
+          <code id="command">npx create-t3-app@latest</code>
+        </button>
 
         <div className="mt-4" />
         <div className="flex gap-4 font-medium text-neutral-300 anim-2">
