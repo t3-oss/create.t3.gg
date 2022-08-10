@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: prettier",
+      "code": "ENOENT",
+      "stack": "Error: not found: prettier\n    at getNotFoundError (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41759:51)\n    at Function.whichSync [as sync] (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41836:13)\n    at getCommandAbsolutePathSync (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43401:44)\n    at default_1 (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43410:32)\n    at C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:178873:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\User\\create-t3-app\\docs",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: prettier",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: prettier\n    at getNotFoundError (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41759:51)\n    at Function.whichSync [as sync] (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41836:13)\n    at getCommandAbsolutePathSync (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43401:44)\n    at default_1 (C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43410:32)\n    at C:\\Users\\User\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:178873:39"
+    }
+  }
+}
