@@ -1,0 +1,31 @@
+---
+const CURRENT_RECOMMENDED_COMMAND = "npx create-t3-app";
+---
+
+<code
+	class="px-3 py-1.5 text-base text-blue-300 rounded-md cursor-pointer bg-neutral-800 hover:bg-neutral-700 transition-all duration-300 anim-2"
+	id="copy-btn"
+>
+{CURRENT_RECOMMENDED_COMMAND}
+</code>
+
+<div id="copy-success" class="px-3 py-1.5 mt-2 hidden bg-green-500 text-green-100 rounded-md transition-all duration-300">Copied Successfully!</div>
+
+<script defer>
+	const CURRENT_RECOMMENDED_COMMAND = "npx create-t3-app";
+	
+	const copyBtn = document.getElementById("copy-btn");
+	const copySuccess = document.getElementById("copy-success");
+
+	copyBtn.addEventListener("click", () => {
+		navigator.clipboard.writeText(CURRENT_RECOMMENDED_COMMAND);
+
+		copySuccess.classList.add("!block");
+		copySuccess.style.display = 1;
+
+		setTimeout(() => {
+			copySuccess.classList.remove("!block");
+			copySuccess.style.display = 0;
+		}, 2000);
+	});
+</script>
